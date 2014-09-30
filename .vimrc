@@ -8,17 +8,6 @@ set foldmethod=marker "auto folding; using 3 open/closing curly brackets
 
 syntax on
 
-" noremap {{{
-    noremap <Up> <NOP>
-    noremap <Down> <NOP>
-    noremap <Left> <NOP>
-    noremap <Right> <NOP>
-    noremap h <NOP>
-    noremap j <NOP>
-    noremap k <NOP>
-    noremap l <NOP>
-" }}}
-
 hi Folded cterm=bold ctermfg=DarkBlue ctermbg=none
 hi FoldColumn cterm=bold ctermfg=DarkBlue ctermbg=none
 
