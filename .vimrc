@@ -17,17 +17,6 @@ set listchars=tab:>.,trail:.,extends:#,nbsp:.
 
 syntax on
 
-" noremap {{{
-    noremap <Up> <NOP>
-    noremap <Down> <NOP>
-    noremap <Left> <NOP>
-    noremap <Right> <NOP>
-    noremap h <NOP>
-    noremap j <NOP>
-    noremap k <NOP>
-    noremap l <NOP>
-" }}}
-
 hi Folded cterm=bold ctermfg=DarkBlue ctermbg=none
 hi FoldColumn cterm=bold ctermfg=DarkBlue ctermbg=none
 
