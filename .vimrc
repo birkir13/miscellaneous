@@ -1,10 +1,19 @@
+set nowrap
 set number
 set ts=4 sts=4 sw=4 expandtab
 set backspace=indent,eol,start
 set hls is 
 set smartindent
 set ai
+set copyindent
 set foldmethod=marker "auto folding; using 3 open/closing curly brackets
+set shiftround
+set showmatch
+set ignorecase
+set smartcase
+set smarttab
+set list
+set listchars=tab:>.,trail:.,extends:#,nbsp:.
 
 syntax on
 
